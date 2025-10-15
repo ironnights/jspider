@@ -50,6 +50,6 @@ public class Config {
 
     public int getMarketsPerEventLimit() { return Integer.parseInt(properties.getProperty("parser.markets.per.event.limit", "4")); }
 
-    public int getThreadPoolSize() { return Integer.parseInt(properties.getProperty("parser.thread.pool.size", "5")); }
+    public int getThreadPoolSize() { return Integer.parseInt(properties.getProperty("parser.thread.pool.size", "3")); }
 
 }
